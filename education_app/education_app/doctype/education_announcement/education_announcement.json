@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:announcement_title",
+ "creation": "2025-09-26 16:23:09.017479",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "announcement_created_date",
+  "announcement_title",
+  "announcement_contant"
+ ],
+ "fields": [
+  {
+   "fieldname": "announcement_title",
+   "fieldtype": "Data",
+   "label": "Announcement Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "announcement_contant",
+   "fieldtype": "Small Text",
+   "label": "Announcement Contant"
+  },
+  {
+   "fieldname": "announcement_created_date",
+   "fieldtype": "Date",
+   "label": "Announcement Created Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-26 16:52:54.958377",
+ "modified_by": "Administrator",
+ "module": "Education-App",
+ "name": "Education Announcement",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-25 12:33:11.828174",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_image",
+  "second_image",
+  "third_image",
+  "column_break_warj",
+  "fourth_image",
+  "fifth_image",
+  "sixth_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_image",
+   "fieldtype": "Attach Image",
+   "label": "First Image"
+  },
+  {
+   "fieldname": "second_image",
+   "fieldtype": "Attach Image",
+   "label": "Second Image"
+  },
+  {
+   "fieldname": "third_image",
+   "fieldtype": "Attach Image",
+   "label": "Third Image"
+  },
+  {
+   "fieldname": "column_break_warj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fourth_image",
+   "fieldtype": "Attach Image",
+   "label": "Fourth Image"
+  },
+  {
+   "fieldname": "fifth_image",
+   "fieldtype": "Attach Image",
+   "label": "Fifth Image"
+  },
+  {
+   "fieldname": "sixth_image",
+   "fieldtype": "Attach Image",
+   "label": "Sixth Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-26 10:05:43.216444",
+ "modified_by": "Administrator",
+ "module": "Education-App",
+ "name": "Gallery-Image-Education-App",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
